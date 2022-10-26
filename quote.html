@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Homework 5</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    
+    <script type="text/javascript">
+  writeRandomQuote = function () {
+    var quotes = new Array();
+    quotes[0] = "Action is the real measure of intelligence.";
+    quotes[1] = "Baseball has the great advantage over cricket of being sooner ended.";
+    quotes[2] = "Every goal, every action, every thought, every feeling one experiences, whether it be consciously or unconsciously known, is an attempt to increase one's level of peace of mind.";
+    quotes[3] = "A good head and a good heart are always a formidable combination.";
+    var rand = Math.floor(Math.random()*quotes.length);
+    document.write(quotes[rand]);
+  }
+  writeRandomQuote();
+</script>
+  </head>
+  <body>
+   <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #a0c983;">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link" href="#">Click Me</a>
+      <a class="nav-item nav-link" href="#">Random Quotes</a>
+      <a class="nav-item nav-link" href="#">Random Photos</a>
+      <a class="nav-item nav-link" href="#">Math</a>
+      <a class="nav-item nav-link" href="#">Function 5</a>
+    </div>
+  </div>
+</nav>
+    
+    <script type="text/javascript">writeRandomQuote();</script>
+    </script>
+  </body>
+</html>
