@@ -1,1 +1,42 @@
-
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Homework 5</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    
+    <script type="text/javascript">
+  writeRandomQuote = function () {
+    var quotes = new Array();
+    quotes[0] = "Let your soul stand cool and composed before a million universes - Walt Whitman";
+    quotes[1] = "Be still and cool in thine own mind and spirit. - George Fox";
+    quotes[2] = "Be yourself; everyone else is already taken. - Oscar Wilde";
+    quotes[3] = "Be who you are and say what you feel, because those who mind don't matter, and those who matter don't mind. - Bernard M. Baruch";
+    var rand = Math.floor(Math.random()*quotes.length);
+    document.write(quotes[rand]);
+  }
+  
+</script>
+  </head>
+  <body>
+   <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #a0c983;">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link" href="index.html">Click Me</a>
+      <a class="nav-item nav-link" href="quote.html">Random Quotes</a>
+      <a class="nav-item nav-link" href="photo.html">Random Photos</a>
+      <a class="nav-item nav-link" href="math.html">Math</a>
+      <a class="nav-item nav-link" href="#">Function 5</a>
+    </div>
+  </div>
+</nav>
+    
+    <script type="text/javascript">writeRandomQuote();</script>
+    
+  </body>
+</html>
