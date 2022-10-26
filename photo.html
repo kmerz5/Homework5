@@ -28,7 +28,7 @@
     
     <div>
         <h1>Photo Page</h1>
-        <h3>Click on the button to see image</h3>
+        
  
         <!-- Add id to image -->
         <img id="image" src=
@@ -36,10 +36,6 @@
             alt="GFG image" />
     </div>
  
-    <button type="button"
-        onclick="show()" id="btnID">
-        Show Image
-    </button>
  
     <script>
         function show() {
@@ -47,8 +43,6 @@
             document.getElementById('image')
                     .style.display = "block";
  
-            document.getElementById('btnID')
-                    .style.display = "none";
         }
     </script>
     
